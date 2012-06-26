@@ -4,10 +4,9 @@ To use the library read the examples: inputTest, outputTest.
 
 In order to configure an input pin:
 
-require ("gpio") -- import library
-configureInGPIO (83) -- configure input gpio
-local val = readGPIO(83) -- read the value of the pin
-
+require ("gpio") --import library
+configureInGPIO (83) --configure input gpio
+local val = readGPIO(83) --read the value of the pin
 
 And the output pin:
 
